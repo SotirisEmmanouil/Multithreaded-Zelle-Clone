@@ -195,14 +195,14 @@ public class Client{
         	
 	    System.out.println("ENTER THE TRANSACTION DETAILS, THIS IS REQUIRED: ");	
 	    message = scan.nextLine();
-		//"172.20.10.2"
-		Client client = new Client("127.0.0.1", 63423, user, message, amount, balance, senderUser); 
+
+		Client client = new Client("IP","PORT", user, message, amount, balance, senderUser); 
 	   
         	}
 	    		}  //end decider if for sending
 	    else {			
 	    //if receiving 
-	    Client client = new Client("127.0.0.1", 63423, user, balance); 
+	    Client client = new Client("IP", "PORT", user, balance); 
 	    	
 	    	
 	    }
