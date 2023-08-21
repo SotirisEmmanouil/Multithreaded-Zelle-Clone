@@ -102,7 +102,7 @@ public class Server{
                 String receiver = in.readUTF(); 
                 
         		out = new DataOutputStream(socket.getOutputStream()); 
-                //while ((reason = in.readUTF()) != null && !reason.equals("Stop") && (amount = in.readDouble())!= 0.0){
+     
                 	
                 System.out.println("Transaction reason: "+ reason);
                 System.out.println("Amount being sent from user: "+userName+" to user: "+receiver+"is "+amount+"\n\n");
