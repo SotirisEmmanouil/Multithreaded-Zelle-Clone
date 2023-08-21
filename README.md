@@ -19,3 +19,4 @@ to each other.
    <li>SSL encryption</li>
 </ul>
 
+This was a group project completed in my CSCI348 "Data Communications" course.
